@@ -42,9 +42,9 @@ This is a cluster demo with LVGL on Raspberry Pi 7" touch panel. This demo shows
 
 ## 4. Results<a name="step4"></a>
 When the demo runs correctly, we will see the following interfaces.
-   ![Result](images/result1.jpeg)    
-   ![Result](images/result2.jpeg) 
-   ![Result](images/result3.jpeg) 
+   ![Result](images/result1.jpg)    
+   ![Result](images/result2.jpg) 
+   ![Result](images/result3.jpg) 
 ## 5. FAQs<a name="step5"></a>
 
 ## 6. Support<a name="step6"></a>
