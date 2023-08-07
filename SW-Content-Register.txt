@@ -1,0 +1,111 @@
+Release Name: LVGL_CLUSTER_RT1170_EVKB_RPI
+Release Version: 1.0
+Package License: BSD-3-Clause
+License File: LICENSE.txt
+Description: This is a cluster demo with LVGL on Raspberry Pi 7" touch panel. This demo shows the interface of the car/e-bike when driving, including the interface of speedometer gear switching and user menu switching.
+Release Location: https://github.com/nxp-appcodehub/dm-lvgl_cluster_rt1170_evkb_rpi
+Origin: NXP
+
+Peripheral_Driver          Name: Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/drivers                
+                           Origin: NXP (BSD-3-Clause)                                               
+
+demo example               Name: demo example and source files                                
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code, binary, project files, linker
+                           files                                             
+                           Description: source files that needed by the demo                                       
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/source                        
+                           Origin: NXP (BSD-3-Clause) 
+
+Device                     Name: SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/board, device, utilities, startup, xip                       
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.8.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: evkbmimxrt1170_lvgl_guider_cm7/CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/CMSIS                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.8.0                                          
+
+Components                 Name: components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/component                             
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)                            
+
+touchpanel                 Name: touchpanel for LCD  
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/touchpanel						   
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause)    
+
+video                      Name: video drivers for display  
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: LICENSE.txt                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/video						   
+                           Origin: NXP (BSD-3-Clause), ITE (BSD-3-Clause) 						                                     
+
+lvgl                       Name: LVGL                                        
+                           Version: 8.3.2                                    
+                           Outgoing License: MIT                             
+                           License File: evkbmimxrt1170_lvgl_guider_cm7/lvgl/lvgl/LICENCE.txt    
+                           Format: source code                               
+                           Description: Light and Versatile Graphics Library 
+                           (LVGL)                                            
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/lvgl                         
+                           Origin: Gabor Kiss-Vamosi                         
+                           Url: https://github.com/lvgl/lvgl                 
+
+custom                     Name: custom                                        
+                           Version: NA                                    
+                           Outgoing License: MIT                      
+                           License File: evkbmimxrt1170_lvgl_guider_cm7/lvgl/lvgl/LICENSE.txt   
+                           Format: source code                               
+                           Description: custom codes for GUI                                             
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/custom                         
+                           Origin: NXP (Proprietary)  
+						   
+generated                  Name: generated code from GUI Guider                                        
+                           Version: NA                                    
+                           Outgoing License: MIT                    
+                           License File: evkbmimxrt1170_lvgl_guider_cm7/lvgl/lvgl/LICENCE.txt   
+                           Format: source code                               
+                           Description: generated codes for GUI                                             
+                           Location: evkbmimxrt1170_lvgl_guider_cm7/generated  
+                           Origin: NXP (Proprietary)						   
