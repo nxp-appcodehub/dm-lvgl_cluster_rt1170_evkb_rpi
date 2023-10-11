@@ -23,10 +23,10 @@ This is a cluster demo with LVGL on Raspberry Pi 7" touch panel. This demo shows
 * LVGL version 8.3.2.
 
 ## 2. Hardware<a name="step2"></a>
-1. i.MX RT1170-EVKB(This project works on REV B board).
+1. [i.MX RT1170-EVKB.](https://www.nxp.com/part/MIMXRT1170-EVKB#/)
 2. [Raspberry Pi 7" touch display.](https://www.raspberrypi.com/products/raspberry-pi-touch-display/)
    ![Display](images/Display.png)
-3. Power adapter.
+3. Power adapter.(comes with EVKB board)
 
 ## 3. Setup<a name="step3"></a>
 
